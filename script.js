@@ -110,7 +110,7 @@ function typeWriter(element, text, speed = 80) {
 }
 
 function revealFinalMessage() {
-  const text = 'I Love You, Munisa ❤️';
+  const text = 'My heart has a favorite person. It’s you, Munisa ❤️';
   finalMessage.classList.add('visible');
   typeWriter(finalMessage, text, 90);
 }
