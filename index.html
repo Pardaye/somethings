@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
+    <meta name="theme-color" content="#180b1d" />
+    <meta
+      name="description"
+      content="Romantik mini web-sahifa — I Love You, Munisa ❤️"
+    />
+    <title>I Love You, Munisa ❤️</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <div class="ambient ambient-one"></div>
+      <div class="ambient ambient-two"></div>
+      <div class="ambient ambient-three"></div>
+
+      <div class="floating-hearts" id="floatingHearts" aria-hidden="true"></div>
+
+      <div class="message-stack" id="messageStack" aria-live="polite">
+        <p class="message" data-message>I want to tell you something...</p>
+        <p class="message" data-message>wait 3 second  ❤️</p>
+      </div>
+
+      <div class="tap-hint" id="tapHint">Yurakni bos</div>
+
+      <main class="scene" aria-label="Romantik sahifa">
+        <button class="heart-wrap" id="startTrigger" type="button" aria-label="Romantik animatsiyani boshlash">
+          <div class="heart-glow"></div>
+          <div class="heart main-heart" id="mainHeart"></div>
+        </button>
+      </main>
+
+      <div class="final-container">
+        <div class="final-message" id="finalMessage" aria-live="polite"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
